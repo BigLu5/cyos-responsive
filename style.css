@@ -50,12 +50,12 @@ body {
 }
 
 #landing {
+  width: 80%;
+  margin: 10% auto;
   text-align: center;
   padding: 75px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  margin: 100px auto;
-  width: 50%;
 }
 
 #landing p {
@@ -105,6 +105,7 @@ footer p {
   font-family: "Almendra", serif;
   -webkit-text-stroke: 2px rgb(116, 101, 101);
 }
+
 @keyframes animatedOne {
   from {
     background-position: 0 0;
@@ -253,12 +254,8 @@ img {
 }
 
 #about-dragons {
-  text-align: center;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  margin: 100px auto;
   width: 80%;
+  margin: 10% auto;
 }
 
 #about-dragons p {
@@ -403,31 +400,38 @@ h2 {
   nav ul li a {
     font-size: 1.2rem;
   }
+
   #about-grid p {
     font-size: 0.9rem;
   }
+
   #about-andy img {
     width: 300px;
     left: 15rem;
     bottom: 33rem;
   }
+
   #about-aaron img {
     max-width: 150px;
     left: 20rem;
     bottom: 34rem;
   }
+
   #about-luke img {
     max-width: 150px;
     bottom: 34rem;
   }
+
   #about-neill img {
     max-width: 200px;
     bottom: 28rem;
     right: 2rem;
   }
+
   #cYOAForm {
     padding: 50px 10px 50px 100px;
   }
+
   #brhidden {
     display: block;
   }
